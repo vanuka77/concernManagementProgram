@@ -115,6 +115,8 @@ namespace _2s_lab1
             if (textBox4.Text != "" && textBox3.Text != "") {
                 MessageBox.Show("Пустые поля!");
             }
+
+
             tempConcert.dataTime = dateTimePicker2.Value;
         }
     }
